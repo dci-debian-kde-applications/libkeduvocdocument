@@ -1,0 +1,71 @@
+Source: libkdeedu
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
+ cmake,
+ debhelper (>= 7.3.16),
+ pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.6),
+ libx11-dev
+Standards-Version: 3.9.2
+Homepage: http://edu.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkdeedu
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkdeedu
+
+Package: libkdeedu-data
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libkdeedu4 (<< 4:4.6.80)
+Breaks: libkdeedu4 (<< 4:4.6.80)
+Description: data files for libkdeedu
+ This package contains the architecture-independent data files for libkdeedu.
+ .
+ This package is part of the KDE education module.
+
+Package: kdeedu-kvtml-data
+Architecture: all
+Section: kde
+Depends: ${misc:Depends}
+Description: kvtml files for kdeedu programs
+ This package contains architecture-independent data files for several kdeedu
+ applications, like KAnagram, KHangman and KWordQuiz.
+ .
+ This package is part of the KDE education module.
+
+Package: libkeduvocdocument4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkdeedu-data (>= ${source:Version})
+Replaces: libkdeedu4 (<< 4:4.6.80)
+Breaks: libkdeedu4 (<< 4:4.6.80)
+Description: library for reading and writing vocabulary files
+ This package contains a library for reading and writing vocabulary files. It
+ supports different file formats. KVTML (version 2) is the default. This library
+ is used by Parley, Kanagram, KHangMan and KWordQuiz.
+ .
+ This package is part of the KDE education module.
+
+Package: libkdeedu-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}, kdelibs5-dev (>= 4:4.0.82),
+ libkeduvocdocument4 (= ${binary:Version}), kdeedu-kvtml-data (= ${source:Version}),
+ libkdeedu-data (= ${binary:Version})
+Description: development files for the KDE educational libraries
+ This package contains development files for building software that uses the
+ KDE educational libraries.
+ .
+ This package is part of the KDE education module.
+
+Package: libkdeedu-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: ${misc:Depends}, libkeduvocdocument4 (= ${binary:Version})
+Breaks: kdeedu-dbg (<< 4:4.6.80)
+Replaces: kdeedu-dbg (<< 4:4.6.80)
+Description: debugging symbols for the KDE education module library
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE education module library.
+
