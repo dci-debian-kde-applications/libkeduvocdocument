@@ -26,7 +26,6 @@ Description: data files for libkdeedu
 
 Package: kdeedu-kvtml-data
 Architecture: all
-Section: kde
 Depends: ${misc:Depends}
 Description: kvtml files for kdeedu programs
  This package contains architecture-independent data files for several kdeedu
