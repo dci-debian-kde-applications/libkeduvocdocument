@@ -1,7 +1,8 @@
 Source: libkdeedu
 Section: kde
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  cmake,
  debhelper (>= 7.3.16),
@@ -10,8 +11,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  libx11-dev
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkdeedu
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkdeedu
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/libkdeedu.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkdeedu.git
 
 Package: libkdeedu-data
 Architecture: any
