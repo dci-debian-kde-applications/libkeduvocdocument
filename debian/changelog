@@ -1,31 +1,5 @@
-libkdeedu (4:4.7.1-0ubuntu2) oneiric; urgency=low
+libkdeedu (4:4.7.2-0r0) UNRELEASED; urgency=low
 
-  * No-change rebuild so translations aren't stripped from .desktop
-    files anymore.
+  * Initial release. Start from the Ubuntu packaging, thanks!
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:15:27 +0200
-
-libkdeedu (4:4.7.1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-
- -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Wed, 07 Sep 2011 18:17:23 +0200
-
-libkdeedu (4:4.7.0-0ubuntu2) oneiric; urgency=low
-
-  * Bump various breaks replaces to catch 4.6.5 packages 
-
- -- Philip Muškovac <yofel@kubuntu.org>  Thu, 28 Jul 2011 18:03:46 +0200
-
-libkdeedu (4:4.7.0-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release 
-
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 22:50:00 +0200
-
-libkdeedu (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release candidate.
-  * Split packaging from kdeedu for separate tarball.
-
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 10:41:49 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 18 Oct 2011 01:20:26 +0200
