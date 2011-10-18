@@ -15,8 +15,8 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/libkdeedu.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkdeedu.git
 
 Package: libkdeedu-data
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: all
+Depends: ${misc:Depends}
 Replaces: libkdeedu4 (<< 4:4.6.80)
 Breaks: libkdeedu4 (<< 4:4.6.80)
 Description: data files for libkdeedu
@@ -51,7 +51,7 @@ Architecture: any
 Section: libdevel
 Depends: ${misc:Depends}, kdelibs5-dev (>= 4:4.0.82),
  libkeduvocdocument4 (= ${binary:Version}), kdeedu-kvtml-data (= ${source:Version}),
- libkdeedu-data (= ${binary:Version})
+ libkdeedu-data (= ${source:Version})
 Description: development files for the KDE educational libraries
  This package contains development files for building software that uses the
  KDE educational libraries.
