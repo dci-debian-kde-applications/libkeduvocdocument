@@ -27,9 +27,9 @@ Description: data files for libkdeedu
 Package: kdeedu-kvtml-data
 Architecture: all
 Depends: ${misc:Depends}
-Description: kvtml files for kdeedu programs
- This package contains architecture-independent data files for several kdeedu
- applications, like KAnagram, KHangman and KWordQuiz.
+Description: KVTML files for KDE-Edu programs
+ This package contains KVTML files for several KDE-Edu applications, such as
+ KAnagram, KHangman, and KWordQuiz.
  .
  This package is part of the KDE education module.
 
@@ -65,7 +65,9 @@ Priority: extra
 Depends: ${misc:Depends}, libkeduvocdocument4 (= ${binary:Version})
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
-Description: debugging symbols for the KDE education module library
+Description: debugging symbols for the libkeduvocdocument library
  This package contains debugging files used to investigate problems with
- binaries included in the KDE education module library.
+ binaries included in the libkeduvocdocument4 library.
+ .
+ This package is part of the KDE education module.
 
