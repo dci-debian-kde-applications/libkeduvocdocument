@@ -1,3 +1,10 @@
+libkdeedu (4:4.8.4-0r1) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jun 2012 23:34:45 +0200
+
 libkdeedu (4:4.7.4-2) unstable; urgency=low
 
   * Team upload. Upload to unstable.
