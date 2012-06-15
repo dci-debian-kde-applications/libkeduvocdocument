@@ -8,6 +8,7 @@ libkdeedu (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Add watch file.
   * Convert copyright to copyright-format v1.0 and fix/update.
   * Slightly improve packages descriptions.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jun 2012 23:34:45 +0200
 
