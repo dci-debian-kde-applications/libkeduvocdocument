@@ -1,6 +1,6 @@
-libkdeedu (4:4.8.4-0r1) UNRELEASED; urgency=low
+libkdeedu (4:4.8.4-1) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Bump kde-sc-dev-latest build dependency to 4.8.4.
   * Bump kdelibs5-dev build dependency to 4.8.
@@ -10,7 +10,7 @@ libkdeedu (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Slightly improve packages descriptions.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jun 2012 23:34:45 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 16 Jun 2012 12:00:10 +0200
 
 libkdeedu (4:4.7.4-2) unstable; urgency=low
 
