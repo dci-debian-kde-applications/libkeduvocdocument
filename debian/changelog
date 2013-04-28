@@ -1,9 +1,9 @@
-libkdeedu (4:4.10.2-2) UNRELEASED; urgency=low
+libkdeedu (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Apr 2013 10:33:40 +0200
+ -- Sune Vuorela <sune@debian.org>  Mon, 29 Apr 2013 01:27:35 +0200
 
 libkdeedu (4:4.10.2-1) experimental; urgency=low
 
