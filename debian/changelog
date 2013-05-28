@@ -1,3 +1,9 @@
+libkdeedu (4:4.10.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 13:45:12 +0200
+
 libkdeedu (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
