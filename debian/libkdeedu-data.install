@@ -1,5 +1,6 @@
 usr/share/icons/hicolor/16x16/actions/editplots.png
 usr/share/icons/hicolor/16x16/actions/functionhelp.png
+usr/share/icons/hicolor/16x16/actions/integral_func.png
 usr/share/icons/hicolor/16x16/actions/maximum.png
 usr/share/icons/hicolor/16x16/actions/minimum.png
 usr/share/icons/hicolor/16x16/actions/newdifferential.png
@@ -37,7 +38,6 @@ usr/share/icons/hicolor/32x32/actions/newpolar.png
 usr/share/icons/hicolor/32x32/actions/resetview.png
 usr/share/icons/hicolor/48x48/actions/editplots.png
 usr/share/icons/hicolor/48x48/actions/functionhelp.png
-usr/share/icons/hicolor/48x48/actions/integral_func.png
 usr/share/icons/hicolor/48x48/actions/maximum.png
 usr/share/icons/hicolor/48x48/actions/minimum.png
 usr/share/icons/hicolor/48x48/actions/newdifferential.png
