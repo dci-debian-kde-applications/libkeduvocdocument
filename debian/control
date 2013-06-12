@@ -2,7 +2,8 @@ Source: libkdeedu
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
+Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  cmake,
  debhelper (>= 9),
