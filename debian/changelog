@@ -2,6 +2,7 @@ libkdeedu (4:4.11.5-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Enable build failures on missing symbols.
+  * Add abi-compliance-checker info.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 26 Jan 2014 14:02:59 +0100
 
