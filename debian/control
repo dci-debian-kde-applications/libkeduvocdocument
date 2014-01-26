@@ -3,12 +3,12 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake,
- debhelper (>= 9),
- pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
- libx11-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libx11-dev,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
@@ -37,7 +37,9 @@ Description: KVTML files for KDE-Edu programs
 Package: libkeduvocdocument4
 Architecture: any
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkdeedu-data (>= ${source:Version})
+Depends: libkdeedu-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Replaces: libkdeedu4 (<< 4:4.6.80)
 Breaks: libkdeedu4 (<< 4:4.6.80)
 Description: library for reading and writing vocabulary files
@@ -50,9 +52,11 @@ Description: library for reading and writing vocabulary files
 Package: libkdeedu-dev
 Architecture: any
 Section: libdevel
-Depends: ${misc:Depends}, kdelibs5-dev (>= 4:4.0.82),
- libkeduvocdocument4 (= ${binary:Version}), kdeedu-kvtml-data (= ${source:Version}),
- libkdeedu-data (= ${source:Version})
+Depends: kdeedu-kvtml-data (= ${source:Version}),
+         kdelibs5-dev (>= 4:4.0.82),
+         libkdeedu-data (= ${source:Version}),
+         libkeduvocdocument4 (= ${binary:Version}),
+         ${misc:Depends}
 Description: development files for the KDE educational libraries
  This package contains development files for building software that uses the
  KDE educational libraries.
@@ -63,7 +67,7 @@ Package: libkdeedu-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: ${misc:Depends}, libkeduvocdocument4 (= ${binary:Version})
+Depends: libkeduvocdocument4 (= ${binary:Version}), ${misc:Depends}
 Breaks: kdeedu-dbg (<< 4:4.6.80)
 Replaces: kdeedu-dbg (<< 4:4.6.80)
 Description: debugging symbols for the libkeduvocdocument library
@@ -71,4 +75,3 @@ Description: debugging symbols for the libkeduvocdocument library
  binaries included in the libkeduvocdocument4 library.
  .
  This package is part of the KDE education module.
-
