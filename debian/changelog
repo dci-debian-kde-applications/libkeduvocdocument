@@ -1,8 +1,8 @@
-libkdeedu (4:4.14.0-1) UNRELEASED; urgency=medium
+libkdeedu (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 06:01:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 06:07:38 +0200
 
 libkdeedu (4:4.12.2-2) unstable; urgency=medium
 
