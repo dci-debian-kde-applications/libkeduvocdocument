@@ -1,9 +1,11 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libkeduvocdocument.so.4 libkeduvocdocument4 #MINVER#
  _ZN11KEduVocText10fromKVTML2ER11QDomElement@Base 4:4.7.2
  _ZN11KEduVocText11incBadCountEv@Base 4:4.7.2
  _ZN11KEduVocText11resetGradesEv@Base 4:4.7.2
  _ZN11KEduVocText11setBadCountEt@Base 4:4.7.2
+ _ZN11KEduVocText11setIntervalEj@Base 4:4.14.0
+ _ZN11KEduVocText11setPreGradeEt@Base 4:4.14.0
  _ZN11KEduVocText15setPracticeDateERK9QDateTime@Base 4:4.7.2
  _ZN11KEduVocText16incPracticeCountEv@Base 4:4.7.2
  _ZN11KEduVocText16setPracticeCountEt@Base 4:4.7.2
@@ -72,8 +74,11 @@ libkeduvocdocument.so.4 libkeduvocdocument4 #MINVER#
  _ZN15KEduVocDocument22KEduVocDocumentPrivateD1Ev@Base 4:4.7.2
  _ZN15KEduVocDocument22KEduVocDocumentPrivateD2Ev@Base 4:4.7.2
  _ZN15KEduVocDocument4openERK4KUrl@Base 4:4.7.2
+ _ZN15KEduVocDocument4openERK4KUrlNS_17FileHandlingFlagsE@Base 4:4.14.0
+ _ZN15KEduVocDocument5closeEv@Base 4:4.14.0
  _ZN15KEduVocDocument5mergeEPS_b@Base 4:4.7.2
  _ZN15KEduVocDocument6lessonEv@Base 4:4.7.2
+ _ZN15KEduVocDocument6saveAsERK4KUrlNS_8FileTypeENS_17FileHandlingFlagsE@Base 4:4.14.0
  _ZN15KEduVocDocument6saveAsERK4KUrlNS_8FileTypeERK7QString@Base 4:4.7.2
  _ZN15KEduVocDocument6setUrlERK4KUrl@Base 4:4.7.2
  _ZN15KEduVocDocument7patternENS_14FileDialogModeE@Base 4:4.7.2
@@ -269,6 +274,8 @@ libkeduvocdocument.so.4 libkeduvocdocument4 #MINVER#
  _ZNK11KEduVocText4textEv@Base 4:4.7.2
  _ZNK11KEduVocText5gradeEv@Base 4:4.7.2
  _ZNK11KEduVocText8badCountEv@Base 4:4.7.2
+ _ZNK11KEduVocText8intervalEv@Base 4:4.14.0
+ _ZNK11KEduVocText8preGradeEv@Base 4:4.14.0
  _ZNK11KEduVocTexteqERKS_@Base 4:4.7.2
  _ZNK14KEduVocArticle9isArticleERK7QString@Base 4:4.7.2
  _ZNK15KEduVocDocument10identifierEi@Base 4:4.7.2
@@ -280,6 +287,7 @@ libkeduvocdocument.so.4 libkeduvocdocument4 #MINVER#
  _ZNK15KEduVocDocument15identifierCountEv@Base 4:4.7.2
  _ZNK15KEduVocDocument15queryIdentifierER7QStringS1_@Base 4:4.7.2
  _ZNK15KEduVocDocument17indexOfIdentifierERK7QString@Base 4:4.7.2
+ _ZNK15KEduVocDocument22KEduVocDocumentPrivate19initializeKAutoSaveER13KAutoSaveFileRK7QStringNS_17FileHandlingFlagsE@Base 4:4.14.0
  _ZNK15KEduVocDocument3urlEv@Base 4:4.7.2
  _ZNK15KEduVocDocument5titleEv@Base 4:4.7.2
  _ZNK15KEduVocDocument6authorEv@Base 4:4.7.2
