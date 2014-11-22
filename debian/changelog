@@ -1,3 +1,18 @@
+libkeduvocdocument (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release, renamed to libkeduvocdocument
+  * Fix watch urls for new release location.
+  * Update Vcs urls for the new repository location.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Drop kdeedu-kvtml-data and libkeedu-data packages as the files were
+    removed upstream
+  * Drop build-depend on kdelibs5-dev
+  * Build-depend on extra-cmake-modules, kio-dev, libkf5archive-dev,
+    libkf5i18n-dev
+  * Update the package descriptions for the library rename
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 13:26:40 +0100
+
 libkdeedu (4:4.14.1-1) unstable; urgency=medium
 
   * New upstream release (4.14.1).

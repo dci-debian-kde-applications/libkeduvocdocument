@@ -1,4 +1,4 @@
-Source: libkdeedu
+Source: libkeduvocdocument
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -6,42 +6,23 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
+               extra-cmake-modules,
+               kio-dev,
+               libkf5archive-dev,
+               libkf5i18n-dev,
                libx11-dev,
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/libkdeedu.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/libkdeedu.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/libkeduvocdocument.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/libkeduvocdocument.git
 
-Package: libkdeedu-data
-Architecture: all
-Depends: ${misc:Depends}
-Replaces: libkdeedu4 (<< 4:4.6.80)
-Breaks: libkdeedu4 (<< 4:4.6.80)
-Description: data files for libkdeedu
- This package contains the architecture-independent data files for libkdeedu.
- .
- This package is part of the KDE education module.
-
-Package: kdeedu-kvtml-data
-Architecture: all
-Depends: ${misc:Depends}
-Description: KVTML files for KDE-Edu programs
- This package contains KVTML files for several KDE-Edu applications, such as
- KAnagram, KHangman, and KWordQuiz.
- .
- This package is part of the KDE education module.
-
-Package: libkeduvocdocument4
+Package: libkeduvocdocument5
 Architecture: any
 Section: libs
-Depends: libkdeedu-data (>= ${source:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
-Replaces: libkdeedu4 (<< 4:4.6.80)
-Breaks: libkdeedu4 (<< 4:4.6.80)
 Description: library for reading and writing vocabulary files
  This package contains a library for reading and writing vocabulary files. It
  supports different file formats. KVTML (version 2) is the default. This library
@@ -49,29 +30,24 @@ Description: library for reading and writing vocabulary files
  .
  This package is part of the KDE education module.
 
-Package: libkdeedu-dev
+Package: libkeduvocdocument-dev
 Architecture: any
 Section: libdevel
-Depends: kdeedu-kvtml-data (= ${source:Version}),
-         kdelibs5-dev (>= 4:4.0.82),
-         libkdeedu-data (= ${source:Version}),
-         libkeduvocdocument4 (= ${binary:Version}),
+Depends: libkeduvocdocument5 (= ${binary:Version}),
          ${misc:Depends}
-Description: development files for the KDE educational libraries
+Description: development files for KEduVocDocument
  This package contains development files for building software that uses the
- KDE educational libraries.
+ KEduVocDocument library
  .
  This package is part of the KDE education module.
 
-Package: libkdeedu-dbg
+Package: libkeduvocdocument-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libkeduvocdocument4 (= ${binary:Version}), ${misc:Depends}
-Breaks: kdeedu-dbg (<< 4:4.6.80)
-Replaces: kdeedu-dbg (<< 4:4.6.80)
+Depends: libkeduvocdocument5 (= ${binary:Version}), ${misc:Depends}
 Description: debugging symbols for the libkeduvocdocument library
  This package contains debugging files used to investigate problems with
- binaries included in the libkeduvocdocument4 library.
+ binaries included in the libkeduvocdocument5 library.
  .
  This package is part of the KDE education module.

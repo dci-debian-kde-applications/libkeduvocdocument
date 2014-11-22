@@ -11,4 +11,4 @@ override_dh_shlibdeps:
 	$(overridden_command) --remaining-packages
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=libkdeedu-dbg
+	$(overridden_command) --dbg-package=libkeduvocdocument-dbg

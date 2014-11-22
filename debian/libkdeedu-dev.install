@@ -1,6 +1,0 @@
-usr/include/libkdeedu/
-usr/lib/cmake/libkdeedu/LibKdeEduConfig.cmake
-usr/lib/cmake/libkdeedu/LibKdeEduTargets-debian.cmake
-usr/lib/cmake/libkdeedu/LibKdeEduTargets.cmake
-usr/lib/libkeduvocdocument.so
-usr/lib/libqtmmlwidget.a

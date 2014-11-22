@@ -1,2 +1,3 @@
 version=3
-http://download.kde.org/stable/([\d.]+)/src/libkdeedu-([\d.]+).tar.xz
+http://download.kde.org/stable/applications/([\d.]+)/src/libkeduvocdocument-([\d.]+).tar.xz
+http://download.kde.org/unstable/applications/([\d.]+)/src/libkeduvocdocument-([\d.]+).tar.xz
