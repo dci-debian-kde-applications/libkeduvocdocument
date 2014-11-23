@@ -21,7 +21,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/libkeduvocdocument.gi
 Package: libkeduvocdocument5
 Architecture: any
 Section: libs
-Depends: ${misc:Depends},
+Depends: kdeedu-data,
+         ${misc:Depends},
          ${shlibs:Depends}
 Description: library for reading and writing vocabulary files
  This package contains a library for reading and writing vocabulary files. It
