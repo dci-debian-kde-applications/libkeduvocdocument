@@ -1,8 +1,8 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
-include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
 .PHONY: override_dh_auto_test
 
