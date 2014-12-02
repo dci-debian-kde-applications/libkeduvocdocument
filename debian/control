@@ -22,6 +22,7 @@ Package: libkeduvocdocument5
 Architecture: any
 Section: libs
 Depends: kdeedu-data,
+         kdeedu-kvtml-data,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library for reading and writing vocabulary files
