@@ -1,5 +1,5 @@
 usr/include/libkeduvocdocument/
+usr/lib/*/libKEduVocDocument.so
 usr/lib/*/libkeduvocdocument/LibKEduVocDocumentConfig.cmake
 usr/lib/*/libkeduvocdocument/LibKEduVocDocumentTargets-debian.cmake
 usr/lib/*/libkeduvocdocument/LibKEduVocDocumentTargets.cmake
-usr/lib/*/libKEduVocDocument.so

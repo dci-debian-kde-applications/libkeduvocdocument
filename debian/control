@@ -5,8 +5,8 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
                extra-cmake-modules,
+               kde-sc-dev-latest (>= 4:4.12),
                kio-dev,
                libkf5archive-dev,
                libkf5i18n-dev,
@@ -21,10 +21,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/libkeduvocdocument.gi
 Package: libkeduvocdocument5
 Architecture: any
 Section: libs
-Depends: kdeedu-data,
-         kdeedu-kvtml-data,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: kdeedu-data, kdeedu-kvtml-data, ${misc:Depends}, ${shlibs:Depends}
 Description: library for reading and writing vocabulary files
  This package contains a library for reading and writing vocabulary files. It
  supports different file formats. KVTML (version 2) is the default. This library
@@ -35,8 +32,7 @@ Description: library for reading and writing vocabulary files
 Package: libkeduvocdocument-dev
 Architecture: any
 Section: libdevel
-Depends: libkeduvocdocument5 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: libkeduvocdocument5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for KEduVocDocument
  This package contains development files for building software that uses the
  KEduVocDocument library
