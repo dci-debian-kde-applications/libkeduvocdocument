@@ -1,4 +1,4 @@
-libkeduvocdocument (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
+libkeduvocdocument (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Remove unstable from watch file, uscan fails with 
@@ -6,7 +6,7 @@ libkeduvocdocument (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
   * batchpatch new symbols. 
   * Clean build. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 12:18:13 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 07:12:24 -0800
 
 libkeduvocdocument (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
