@@ -31,7 +31,9 @@ Description: library for reading and writing vocabulary files
 Package: libkeduvocdocument-dev
 Section: libdevel
 Architecture: any
-Depends: libkeduvocdocument5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkeduvocdocument5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0),
+         ${misc:Depends}
 Description: development files for KEduVocDocument
  This package contains development files for building software that uses the
  KEduVocDocument library
