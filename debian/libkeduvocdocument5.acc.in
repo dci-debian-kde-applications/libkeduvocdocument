@@ -14,7 +14,7 @@
 </gcc_options>
 
 <libs>
-    /usr/lib/*/libKEduVocDocument.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKEduVocDocument.so
 </libs>
 
 </descriptor>
