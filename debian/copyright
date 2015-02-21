@@ -2,6 +2,8 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Comment: This package was developed for Ubuntu by the Kubuntu Developers and
  modified to be included in Debian. See below the copyright holders for debian/*
  files.
+Upstream-Name: libkevocdocument
+Source: git://anongit.kde.org/libkevocdocument
 
 Files: *
 Copyright: 1999-2002 Ewald Arnold <kvoctrain@ewald-arnold.de>
