@@ -7,10 +7,10 @@ libkeduvocdocument (4:14.12.2-1~) UNRELEASED; urgency=medium
 libkeduvocdocument (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-  * batchpatch new symbols. 
-  * Clean build. 
+  * batchpatch new symbols.
+  * Clean build.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 07:12:24 -0800
 
@@ -142,7 +142,7 @@ libkdeedu (4:4.7.4-2) unstable; urgency=low
 libkdeedu (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
 
