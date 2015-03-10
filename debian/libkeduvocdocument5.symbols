@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 14.12.0+git20150122.0130+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:14.12.2 amd64
 libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZN11KEduVocText10fromKVTML2ER11QDomElement@Base 14.11.95
  _ZN11KEduVocText11incBadCountEv@Base 14.11.95
@@ -44,10 +44,10 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZN13KEduVocLesson11removeEntryEP17KEduVocExpression@Base 14.11.95
  _ZN13KEduVocLesson5entryEiN16KEduVocContainer20EnumEntriesRecursiveE@Base 14.11.95
  _ZN13KEduVocLesson7entriesEN16KEduVocContainer20EnumEntriesRecursiveE@Base 14.11.95
- _ZN13KEduVocLessonC1ERK7QStringP15KEduVocDocument@Base 14.12.0+git20150122.0130+15.04
+ _ZN13KEduVocLessonC1ERK7QStringP15KEduVocDocument@Base 4:14.12.2
  _ZN13KEduVocLessonC1ERK7QStringP16KEduVocContainer@Base 14.11.95
  _ZN13KEduVocLessonC1ERKS_@Base 14.11.95
- _ZN13KEduVocLessonC2ERK7QStringP15KEduVocDocument@Base 14.12.0+git20150122.0130+15.04
+ _ZN13KEduVocLessonC2ERK7QStringP15KEduVocDocument@Base 4:14.12.2
  _ZN13KEduVocLessonC2ERK7QStringP16KEduVocContainer@Base 14.11.95
  _ZN13KEduVocLessonC2ERKS_@Base 14.11.95
  _ZN13KEduVocLessonD0Ev@Base 14.11.95
@@ -143,10 +143,10 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZN16KEduVocContainer7PrivateD2Ev@Base 14.11.95
  _ZN16KEduVocContainer7setNameERK7QString@Base 14.11.95
  _ZN16KEduVocContainer8imageUrlEv@Base 14.11.95
- _ZN16KEduVocContainerC1ERK7QStringNS_17EnumContainerTypeEP15KEduVocDocument@Base 14.12.0+git20150122.0130+15.04
+ _ZN16KEduVocContainerC1ERK7QStringNS_17EnumContainerTypeEP15KEduVocDocument@Base 4:14.12.2
  _ZN16KEduVocContainerC1ERK7QStringNS_17EnumContainerTypeEPS_@Base 14.11.95
  _ZN16KEduVocContainerC1ERKS_@Base 14.11.95
- _ZN16KEduVocContainerC2ERK7QStringNS_17EnumContainerTypeEP15KEduVocDocument@Base 14.12.0+git20150122.0130+15.04
+ _ZN16KEduVocContainerC2ERK7QStringNS_17EnumContainerTypeEP15KEduVocDocument@Base 4:14.12.2
  _ZN16KEduVocContainerC2ERK7QStringNS_17EnumContainerTypeEPS_@Base 14.11.95
  _ZN16KEduVocContainerC2ERKS_@Base 14.11.95
  _ZN16KEduVocContainerD0Ev@Base 14.11.95
@@ -318,7 +318,7 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZNK15KEduVocWordType8wordTypeEv@Base 14.11.95
  _ZNK16KEduVocContainer19childContainerCountEv@Base 14.11.95
  _ZNK16KEduVocContainer3rowEv@Base 14.11.95
- _ZNK16KEduVocContainer8documentEv@Base 14.12.0+git20150122.0130+15.04
+ _ZNK16KEduVocContainer8documentEv@Base 4:14.12.2
  _ZNK17KEduVocExpression11translationEi@Base 14.11.95
  _ZNK17KEduVocExpression18translationIndicesEv@Base 14.11.95
  _ZNK17KEduVocExpression24KEduVocExpressionPrivateeqERKS0_@Base 14.11.95

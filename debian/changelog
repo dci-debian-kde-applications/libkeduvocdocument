@@ -1,3 +1,19 @@
+libkeduvocdocument (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 11:23:33 -0700
+
+libkeduvocdocument (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove unstable from watch file, uscan fails with 
+    remote site does not even have current version
+  * batchpatch new symbols. 
+  * Clean build. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 07:12:24 -0800
+
 libkeduvocdocument (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
