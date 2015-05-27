@@ -2,8 +2,9 @@ libkeduvocdocument (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * New upstream release
+  * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 06:34:21 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 09:13:14 -0700
 
 libkeduvocdocument (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
