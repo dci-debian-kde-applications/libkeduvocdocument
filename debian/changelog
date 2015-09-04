@@ -1,8 +1,15 @@
-libkeduvocdocument (4:15.04.0-1~) UNRELEASED; urgency=medium
+libkeduvocdocument (4:15.08.0-1) unstable; urgency=medium
 
-  * New upstream release (15.04.0).
+  * Upload to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:22:50 +0200
+  [ Maximiliano Curia ]
+  * Bump minimum qtbase5-dev version requirement.
+  * Update libkeduvocdocument-dev.install for new cmake module locations
+
+  [ Scott Kitterman ]
+  * New upstream release
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Sep 2015 10:08:12 -0400
 
 libkeduvocdocument (4:14.12.2-1) experimental; urgency=medium
 
