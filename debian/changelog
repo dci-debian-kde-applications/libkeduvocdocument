@@ -1,6 +1,11 @@
+libkeduvocdocument (4:15.08.2-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Vivid backport. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 26 Oct 2015 11:55:50 +0000
+
 libkeduvocdocument (4:15.08.2-0ubuntu1) wily; urgency=medium
 
-  * Vivid backport
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 12:56:52 +0100
