@@ -4,7 +4,9 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
-.PHONY: override_dh_auto_test
+override_dh_auto_test:
+	# Disable dh_auto_test at build time
+	:
 
 override_dh_shlibdeps:
 	$(overridden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkde-runtime

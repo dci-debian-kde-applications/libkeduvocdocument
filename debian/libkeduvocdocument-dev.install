@@ -1,3 +1,4 @@
 usr/include/libkeduvocdocument/
 usr/lib/*/cmake/libkeduvocdocument/
 usr/lib/*/libKEduVocDocument.so
+usr/lib/*/cmake/libkeduvocdocument/
