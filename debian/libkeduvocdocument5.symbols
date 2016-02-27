@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.2 amd64
+# SymbolsHelper-Confirmed: 4:15.12.1+git20160226.2227+16.04 amd64 i386
 libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZN11KEduVocText10fromKVTML2ER11QDomElement@Base 14.11.95
  _ZN11KEduVocText11incBadCountEv@Base 14.11.95
@@ -22,22 +22,6 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZN11KEduVocTextD1Ev@Base 14.11.95
  _ZN11KEduVocTextD2Ev@Base 14.11.95
  _ZN11KEduVocTextaSERKS_@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile10staleFilesERK4QUrlRK7QString@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile11qt_metacallEN11QMetaObject4CallEiPPv@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile11qt_metacastEPKc@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile11releaseLockEv@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile13allStaleFilesERK7QString@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile14setManagedFileERK4QUrl@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile16staticMetaObjectE@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFile6removeEv@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFileC1EP7QObject@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFileC1ERK4QUrlP7QObject@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFileC2EP7QObject@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFileC2ERK4QUrlP7QObject@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFileD0Ev@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFileD1Ev@Base 14.11.95
- _ZN12LexiAutoSave13KAutoSaveFileD2Ev@Base 14.11.95
  _ZN13KEduVocLesson10entryCountEN16KEduVocContainer20EnumEntriesRecursiveE@Base 14.11.95
  _ZN13KEduVocLesson11appendEntryEP17KEduVocExpression@Base 14.11.95
  _ZN13KEduVocLesson11insertEntryEiP17KEduVocExpression@Base 14.11.95
@@ -295,8 +279,6 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZNK11KEduVocText8intervalEv@Base 14.11.95
  _ZNK11KEduVocText8preGradeEv@Base 14.11.95
  _ZNK11KEduVocTexteqERKS_@Base 14.11.95
- _ZNK12LexiAutoSave13KAutoSaveFile10metaObjectEv@Base 14.11.95
- _ZNK12LexiAutoSave13KAutoSaveFile11managedFileEv@Base 14.11.95
  _ZNK14KEduVocArticle9isArticleERK7QString@Base 14.11.95
  _ZNK15KEduVocDocument10identifierEi@Base 14.11.95
  _ZNK15KEduVocDocument10isModifiedEv@Base 14.11.95
@@ -307,7 +289,7 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZNK15KEduVocDocument15identifierCountEv@Base 14.11.95
  _ZNK15KEduVocDocument15queryIdentifierER7QStringS1_@Base 14.11.95
  _ZNK15KEduVocDocument17indexOfIdentifierERK7QString@Base 14.11.95
- _ZNK15KEduVocDocument22KEduVocDocumentPrivate19initializeKAutoSaveERN12LexiAutoSave13KAutoSaveFileERK7QStringNS_17FileHandlingFlagsE@Base 14.11.95
+ _ZNK15KEduVocDocument22KEduVocDocumentPrivate19initializeKAutoSaveER13KAutoSaveFileRK7QStringNS_17FileHandlingFlagsE@Base 4:15.12.1+git20160226.2227+16.04
  _ZNK15KEduVocDocument3urlEv@Base 14.11.95
  _ZNK15KEduVocDocument5titleEv@Base 14.11.95
  _ZNK15KEduVocDocument6authorEv@Base 14.11.95
@@ -361,17 +343,14 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZTI16KEduVocContainer@Base 14.11.95
  _ZTI16QXmlStreamReader@Base 14.11.95
  _ZTI17KEduVocLeitnerBox@Base 14.11.95
- _ZTIN12LexiAutoSave13KAutoSaveFileE@Base 14.11.95
  _ZTS13KEduVocLesson@Base 14.11.95
  _ZTS15KEduVocDocument@Base 14.11.95
  _ZTS15KEduVocWordType@Base 14.11.95
  _ZTS16KEduVocContainer@Base 14.11.95
  _ZTS16QXmlStreamReader@Base 14.11.95
  _ZTS17KEduVocLeitnerBox@Base 14.11.95
- _ZTSN12LexiAutoSave13KAutoSaveFileE@Base 14.11.95
  _ZTV13KEduVocLesson@Base 14.11.95
  _ZTV15KEduVocDocument@Base 14.11.95
  _ZTV15KEduVocWordType@Base 14.11.95
  _ZTV16KEduVocContainer@Base 14.11.95
  _ZTV17KEduVocLeitnerBox@Base 14.11.95
- _ZTVN12LexiAutoSave13KAutoSaveFileE@Base 14.11.95

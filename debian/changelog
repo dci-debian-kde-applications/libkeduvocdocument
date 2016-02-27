@@ -2,6 +2,7 @@ libkeduvocdocument (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Merged with Debian
   * New upstream release
+  * Refreshing symbols
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 13 Feb 2016 20:57:32 +0000
 
