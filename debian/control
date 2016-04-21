@@ -38,14 +38,3 @@ Description: development files for KEduVocDocument
  KEduVocDocument library
  .
  This package is part of the KDE education module.
-
-Package: libkeduvocdocument-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: libkeduvocdocument5 (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for the libkeduvocdocument library
- This package contains debugging files used to investigate problems with
- binaries included in the libkeduvocdocument5 library.
- .
- This package is part of the KDE education module.
