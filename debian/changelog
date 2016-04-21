@@ -1,10 +1,11 @@
-libkeduvocdocument (4:15.12.3-1~1.gbpd92b3c) UNRELEASED; urgency=medium
+libkeduvocdocument (4:16.04.0-1~1.gbpe43033) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d92b3c10259401fad3f10eedb0b596e03bf1c8b3 **
+  ** SNAPSHOT build @e43033eead22ca414fbe704cf05f4e368eed732a **
 
   * Bump Standards-Version to 3.9.8
+  * Migrate dbg package to automatic dbgsym
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:59:07 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:57:14 +0200
 
 libkeduvocdocument (4:15.08.0-1) unstable; urgency=medium
 
