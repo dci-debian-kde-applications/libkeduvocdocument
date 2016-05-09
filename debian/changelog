@@ -1,12 +1,19 @@
-libkeduvocdocument (4:16.04.0-1~2.gbpdca0e1) UNRELEASED; urgency=medium
+libkeduvocdocument (4:16.04.0-1~3.gbp16332f) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @16332f21cfbad5e974fbaa8980f422ba17c7a325 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @dca0e155b241ff2a53c7db08952bfa665ed05afc **
 
   * Bump Standards-Version to 3.9.8
   * Migrate dbg package to automatic dbgsym
   * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 24 Apr 2016 20:17:29 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 10:57:18 +0200
 
 libkeduvocdocument (4:15.08.0-1) unstable; urgency=medium
 
