@@ -3,6 +3,7 @@ libkeduvocdocument (4:16.08.0-1~1.gbpb88e5f) UNRELEASED; urgency=medium
   ** SNAPSHOT build @b88e5f2db13f1270f8794567c47a24e4a63bbe22 **
 
   * UNRELEASED
+  * Update symbols files.
 
  -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:57:23 +0200
 

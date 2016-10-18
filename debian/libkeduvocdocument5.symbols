@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 amd64
+# SymbolsHelper-Confirmed: 4:16.08.0 amd64
 libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZN11KEduVocText10fromKVTML2ER11QDomElement@Base 14.11.95
  _ZN11KEduVocText11incBadCountEv@Base 14.11.95
@@ -238,6 +238,7 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZN18KEduVocTranslation15setConjugationsERK4QMapI7QString18KEduVocConjugationE@Base 14.11.95
  _ZN18KEduVocTranslation16setPronunciationERK7QString@Base 14.11.95
  _ZN18KEduVocTranslation17removeFalseFriendEPS_@Base 14.11.95
+ _ZN18KEduVocTranslation17setMultipleChoiceERK11QStringList@Base 4:16.08.0
  _ZN18KEduVocTranslation18setComparativeFormERK11KEduVocText@Base 14.11.95
  _ZN18KEduVocTranslation18setSuperlativeFormERK11KEduVocText@Base 14.11.95
  _ZN18KEduVocTranslation25KEduVocTranslationPrivateC1EP17KEduVocExpression@Base 14.11.95
@@ -322,9 +323,11 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZNK18KEduVocTranslation12conjugationsEv@Base 14.11.95
  _ZNK18KEduVocTranslation12falseFriendsEv@Base 14.11.95
  _ZNK18KEduVocTranslation13pronunciationEv@Base 14.11.95
+ _ZNK18KEduVocTranslation14getConjugationERK7QString@Base 4:16.08.0
  _ZNK18KEduVocTranslation15comparativeFormEv@Base 14.11.95
  _ZNK18KEduVocTranslation15superlativeFormEv@Base 14.11.95
  _ZNK18KEduVocTranslation17conjugationTensesEv@Base 14.11.95
+ _ZNK18KEduVocTranslation17getMultipleChoiceEv@Base 4:16.08.0
  _ZNK18KEduVocTranslation7articleEv@Base 14.11.95
  _ZNK18KEduVocTranslation7commentEv@Base 14.11.95
  _ZNK18KEduVocTranslation7exampleEv@Base 14.11.95
@@ -337,18 +340,21 @@ libKEduVocDocument.so.5 libkeduvocdocument5 #MINVER#
  _ZNK22KEduVocPersonalPronoun15personalPronounE6QFlagsIN15KEduVocWordFlag5FlagsEE@Base 14.11.95
  _ZNK22KEduVocPersonalPronoun19maleFemaleDifferentEv@Base 14.11.95
  _ZNK22KEduVocPersonalPronouneqERKS_@Base 14.11.95
+ _ZTI10KFilterDev@Base 4:16.08.0
  _ZTI13KEduVocLesson@Base 14.11.95
  _ZTI15KEduVocDocument@Base 14.11.95
  _ZTI15KEduVocWordType@Base 14.11.95
  _ZTI16KEduVocContainer@Base 14.11.95
  _ZTI16QXmlStreamReader@Base 14.11.95
  _ZTI17KEduVocLeitnerBox@Base 14.11.95
+ _ZTS10KFilterDev@Base 4:16.08.0
  _ZTS13KEduVocLesson@Base 14.11.95
  _ZTS15KEduVocDocument@Base 14.11.95
  _ZTS15KEduVocWordType@Base 14.11.95
  _ZTS16KEduVocContainer@Base 14.11.95
  _ZTS16QXmlStreamReader@Base 14.11.95
  _ZTS17KEduVocLeitnerBox@Base 14.11.95
+ _ZTV10KFilterDev@Base 4:16.08.0
  _ZTV13KEduVocLesson@Base 14.11.95
  _ZTV15KEduVocDocument@Base 14.11.95
  _ZTV15KEduVocWordType@Base 14.11.95
