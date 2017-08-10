@@ -20,6 +20,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkeduvocdocument.
 Package: libkeduvocdocument5
 Architecture: any
 Depends: kdeedu-data, kdeedu-kvtml-data, ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: library for reading and writing vocabulary files
  This package contains a library for reading and writing vocabulary files. It
  supports different file formats. KVTML (version 2) is the default. This library
