@@ -31,7 +31,11 @@ Description: development files for KEduVocDocument
 Package: libkeduvocdocument5
 Architecture: any
 Depends: kdeedu-data, kdeedu-kvtml-data, ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
+Breaks: kanagram (<< 4:17.08),
+        khangman (<< 4:17.08),
+        kwordquiz (<< 4:17.08),
+        parley (<< 4:17.08),
+        ${kde-l10n:all},
 Replaces: ${kde-l10n:all}
 Description: library for reading and writing vocabulary files
  This package contains a library for reading and writing vocabulary files. It
